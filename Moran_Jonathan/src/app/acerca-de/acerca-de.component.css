@@ -1,10 +1,13 @@
 .row {
     padding: 20px;
+    
 }
 
 div {
-    background-color: #a1b5cb;
+    background-color: lightgray;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    
 }
 
 @media (min-width: 576px){
@@ -14,7 +17,7 @@ div {
         border-radius: 80%;
         box-shadow: 3px 3px 3px grey;
         left: 2%;
-        top: 60%;
+        top: 70%;
     }
 }
 
@@ -25,14 +28,29 @@ div {
         border-radius: 80%;
         box-shadow: 3px 3px 3px grey;
         left: 36%;
-        top: 800px;
+        top: 700px;
     }
 }
 
 #nombre {
     font-weight: bold;
-    margin-top: 40%;
+    line-height: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 40%;
+    margin-top: 20%;
     margin-left: 10px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    padding: 5px;
 }
+
+#titulo {
+    font-style: italic;
+    border: 2px solid grey;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+
 
 
