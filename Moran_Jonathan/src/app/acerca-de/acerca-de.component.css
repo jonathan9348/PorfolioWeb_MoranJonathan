@@ -3,10 +3,22 @@
     
 }
 
+body {
+    background-color: black;
+}
+
+#bordes {
+    border-style: solid; 
+    
+}
+
 div {
     background-color: lightgray;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    margin-left: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
     
 }
 
